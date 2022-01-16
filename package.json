@@ -2,7 +2,7 @@
   "name": "space-photo",
   "version": "0.1.0",
   "private": true,
-  "overrides": {
+  "resolutions": {
     "mini-css-extract-plugin": "2.4.5"
   },
   "dependencies": {
