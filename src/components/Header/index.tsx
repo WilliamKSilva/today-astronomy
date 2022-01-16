@@ -8,12 +8,10 @@ export function Header() {
                 <div>
                     <img src={Neptune} alt=""/>
                     <h1>Today's <br />Space</h1>
-                </div>
-                <button>
-                    <a href="https://github.com/WilliamKSilva">
-                        Contact
-                    </a>
-                </button>
+                </div>                
+                <a href="https://github.com/WilliamKSilva">
+                    Contact
+                </a>                
             </Content>
         </Container>
     );

@@ -16,7 +16,7 @@ export function useImages() {
     useEffect(() => {
         (async function onLoadingImage() {
             try {
-                const response = await axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+                const response = await axios.get('https://api.nasa.gov/planetary/apod?api_key=kmuXEr2uk5efiuCBZj4IAZww1a2nweGE7WkmYSod')
 
                 setImageData(response.data)
                 setIsDataFetching(false);

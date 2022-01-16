@@ -54,43 +54,34 @@ export const Content = styled.section`
         }
     }
 
-    button {
+    a {
         display: flex;
         border: none;
         background-color: #b8b8ff;        
         padding: 0.4rem;
         border-radius: 8px;
+        font-size: 1.1rem;
         transition: 0.2s;
+        text-decoration: none;
+        color: #FFFFFF;
 
         @media (min-width: 768px) {
+            font-size: 1.5rem;
             padding: 0.5rem;
         }
 
-        @media (min-width: 1080px) {
-            padding: 0.3rem;
+        @media (min-width: 1024px) {
+            font-size: 1rem;
         }
+            
+        @media (min-width: 1080px) {
+            font-size: 0.9rem;
+            padding: 0.3rem;
+        }        
 
         &:hover {
             filter: brightness(0.4);            
         }
-
-        a {
-            font-size: 1.1rem;
-            width: 100%;
-            text-decoration: none;
-            color: #FFFFFF;
-
-            @media (min-width: 768px) {
-                font-size: 1.5rem;
-            }
-
-            @media (min-width: 1024px) {
-                font-size: 1rem;
-            }
-            
-            @media (min-width: 1080px) {
-                font-size: 0.9rem;
-            }
-        }
+        
     }
 `;
