@@ -26,7 +26,7 @@ export function useImages() {
                 console.log(error)
             }
         })()
-    }, [])
+    }, [imageData])
 
     return {
         imageData,
